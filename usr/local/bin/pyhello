@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+from rich import print
+import psutil
+
+if __name__ == "__main__":
+    print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:")
+
+    print(psutil.disk_partitions())

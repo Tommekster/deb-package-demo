@@ -1,5 +1,6 @@
-Package: hello
-Version: 1.0
+Package: my-hello
+Version: 1.1
 Architecture: all
 Description: hello world
 Maintainer: Tomas Zikmund
+Depends: python3-rich,python3-psutil
